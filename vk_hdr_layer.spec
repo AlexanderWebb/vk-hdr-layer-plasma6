@@ -1,5 +1,5 @@
-Name:           vk_hdr_layer
-Version:        1
+Name:           VK_hdr_layer
+Version:        main
 Release:        %autorelease
 Summary:     Vulkan layer for HDR on Plasma 6.0
 
@@ -25,7 +25,6 @@ I'm running this on Fedora Kinoite 40, so good luck on anything else.
 
 %prep
 %autosetup
-
 
 %build
 %meson
