@@ -12,6 +12,7 @@ COPR available at https://copr.fedorainfracloud.org/coprs/atwebb/vk_hdr_layer_pl
 
 Dependencies:
 - `dnf group install "rpm development tools"`
+- `dnf install fedpkg`
 
 ```bash
 spectool -g vk_hdr_layer.spec

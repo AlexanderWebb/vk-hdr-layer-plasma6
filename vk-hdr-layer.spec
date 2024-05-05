@@ -1,4 +1,4 @@
-Name:           VK_hdr_layer
+Name:           vk-hdr-layer-plasma6
 Version:        main
 Release:        %autorelease
 Summary:     Vulkan layer for HDR on Plasma 6.0
@@ -24,7 +24,7 @@ See https://zamundaaa.github.io/wayland/2023/12/18/update-on-hdr-and-colormanage
 I'm running this on Fedora Kinoite 40, so good luck on anything else.
 
 %prep
-%autosetup
+%setup -n VK_hdr_layer-%version
 
 %build
 %meson
